@@ -1,8 +1,24 @@
 aid: humane-genomics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humane-genomics.png
 name: Humane Genomics
-description: Humane Genomics is a company surfaced as a portfolio company of union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Humane Genomics Inc is a New York City biotechnology company engineering oncolytic RNA
+  viruses to selectively target and destroy cancer cells. Using a first-principle, computer-aided design
+  approach built on Vesicular Stomatitis Virus (VSV) with aptazyme-controlled selective replication, the
+  company develops precision viral therapies; its lead candidate targets pediatric liver cancer
+  (hepatoblastoma). Backed by Union Square Ventures, Humane Genomics operates from Alexandria LaunchLabs
+  and partners with Genezen for cGMP manufacturing. The company publishes no public API or developer
+  surface; this API Evangelist profile tracks it as a portfolio-company lead.
 url: https://raw.githubusercontent.com/api-evangelist/humane-genomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Genomics
+- Oncology
+- Therapeutics
+- Cancer
+- Synthetic Biology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/humane-genomics-domain-security.yml
 - type: Website
   url: https://humanegenomics.com
+- type: Blog
+  url: https://humanegenomics.com/news/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
