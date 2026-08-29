@@ -31,6 +31,9 @@ description: Humane Genomics Inc is a New York City biotechnology company engine
   and partners with Genezen for cGMP manufacturing. The company publishes no public API or developer
   surface; this API Evangelist profile tracks it as a portfolio-company lead.
 url: https://raw.githubusercontent.com/api-evangelist/humane-genomics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company publishes no public API or developer surface; this API Evangelist profile tracks it as a portfolio-company lead."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
